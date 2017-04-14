@@ -79,17 +79,13 @@
 }
 /*-------------------*/
 body{
-    background-image: url("../anthill-background-tile.png");
+    background-image: url("../images/anthill-background-tile-1.png");
     background-repeat: repeat;
     z-index: 100;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
-.masthead{
-    background-image: url("../anthill-background-tile.png");
-    background-repeat: repeat;
-}
   .affix {
       top: -150px;
       width: 100%;
@@ -303,6 +299,10 @@ margin-top: 22px;
     z-index: 1000;
 }
 
+#navbar-affix{
+    background-color: #fafafa !important;
+}
+
 .secondary-nav>li>a{
     color: #3A3A47;
     font-size: 16px;
@@ -316,6 +316,10 @@ margin-top: 22px;
 }
 .about-hasgeek{
     margin-bottom: 100px;
+}
+
+.anthill-etymology>.col-md-4 {
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 500px) {
