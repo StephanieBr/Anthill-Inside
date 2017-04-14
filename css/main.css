@@ -13,7 +13,6 @@
 
 .base-font-style{
     font-size: 16px;
-    color: #7A7D81;
     line-height: 1.5em;
 }
 
@@ -76,10 +75,11 @@
 .cta-blue-inline:hover{
   background-color: #3e50a3;
   border:solid 2px #3e50a3;
+  color: #ffffff;
 }
 /*-------------------*/
 body{
-    background-image: url("../images/anthill-background-tile-1.png");
+    background-image: url("../images/anthill-background-tile.png");
     background-repeat: repeat;
     z-index: 100;
     font-family: 'Montserrat', sans-serif;
@@ -164,7 +164,7 @@ body{
 
 .photo-wall .cta-green{
     position: relative;
-    top: -330px;
+    top: -345px;
     padding: 18px 60px 18px 60px;
 
 }
@@ -185,6 +185,12 @@ body{
     margin: 42px;
 }
 
+.past-workshops{
+    margin-top: 70px;
+}
+
+
+
 .link-to-all-speakers{
     font-size: 18px;
 }
@@ -197,7 +203,8 @@ body{
     margin-top: 100px;
 }
 .proposed-talks h2{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: 70px;
 }
 .tickets{
     margin-top: 100px;
@@ -209,6 +216,7 @@ body{
 .venue h2{
     color: #ffffff;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .sponsorship{
@@ -225,7 +233,11 @@ body{
 
 .logo-wall h3{
 font-weight: 700;
-margin-top: 22px;
+margin-top: 10px;
+}
+
+.logo-wall img{
+    margin-top: 40px;
 }
 
 /*.become-a-sponsor{
@@ -264,29 +276,13 @@ margin-top: 22px;
 }
 
 .about-hasgeek{
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .about-hasgeek img{
     margin-top: 20px;
     margin-bottom: 50px;
 }
-
- .google-maps {
-        position: relative;
-        padding-bottom: 75%; // This is the aspect ratio
-        height: 0;
-        overflow: hidden;
-    }
-    .google-maps iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100% !important;
-        height: 100% !important;
-    }
-
-
 
 .nav-list>li{
     cursor: pointer;
@@ -307,7 +303,7 @@ margin-top: 22px;
     color: #3A3A47;
     font-size: 16px;
     font-weight: 700;
-    padding: 15px 45px 15px 40px;
+    padding: 15px 40px 15px 30px;
 }
 
 .secondary-nav>li>a:hover{
@@ -329,8 +325,20 @@ margin-top: 22px;
 .masthead>h2{
     margin-bottom: 50px;
 }
+.cta-blue-inline{
+    font-size: 14px;
+}
+.base-font-style{
+    font-size: 14px;
+}
+.logo-wall h3{
+    font-size: 16px;
+}
 
 }
+
+/*map*/
+#mapid { height: 180px; }
 
 
 
