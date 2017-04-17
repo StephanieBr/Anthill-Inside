@@ -77,6 +77,10 @@
   border:solid 2px #3e50a3;
   color: #ffffff;
 }
+
+.cta-tertiary{
+
+}
 /*-------------------*/
 body{
     background-image: url("../images/anthill-background-tile.png");
@@ -102,13 +106,13 @@ body{
     margin-top: 200px;
 }
 
-.masthead > h1{
+.masthead>.col-md-12>h1{
    font-family: kollektif;
    font-weight: 700;
    font-size: 52px;
 }
 
-.masthead > h2{
+.masthead>.col-md-12>h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 24px;
@@ -177,12 +181,23 @@ body{
     border-radius: 5px;
 }
 
-.speaker-card .col-md-4{
-    padding: 0;
+.speaker-card-img{
+     width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
 }
+
 
 .speaker-card{
     margin: 42px;
+    -webkit-box-shadow: 5px 5px 49px 2px rgba(212,210,212,1);
+    -moz-box-shadow: 5px 5px 49px 2px rgba(212,210,212,1);
+    box-shadow: 5px 5px 49px 2px rgba(212,210,212,1);
+    padding: 25px;
+    background-color: #ffffff;
 }
 
 .past-workshops{
@@ -322,8 +337,8 @@ margin-top: 10px;
     .masthead{
     margin-top: 50px;
 }
-.masthead>h2{
-    margin-bottom: 50px;
+.masthead>.col-md-12>h2{
+    margin-bottom: 60px;
 }
 .cta-blue-inline{
     font-size: 14px;
@@ -334,8 +349,13 @@ margin-top: 10px;
 .logo-wall h3{
     font-size: 16px;
 }
+.speaker-card>.row{
+    padding: 15px;
+    height: 300px;
+}
 
 }
+
 
 /*map*/
 #mapid { height: 180px; }

@@ -20,9 +20,11 @@
 <!-- masthead -->
     <div class="container">
         <div class="row masthead text-center">
-            <img src="./images/anthill-inside-logo.svg" alt="Anthill Inside Logo" width="56">
-            <h1>anthill inside 2017</h1>
-            <h2>Come learn about deep learning from pioneers in the field</h2>
+            <div class="col-md-12">
+                <img src="./images/anthill-inside-logo.svg" alt="Anthill Inside Logo" width="56">
+                <h1>anthill inside 2017</h1>
+                <h2>Come learn about deep learning from pioneers in the field</h2>
+            </div>
         </div>
     </div>
 <!-- /.masthead -->
@@ -86,9 +88,9 @@
 <!-- /.ANTHILL MOBILE NAVBAR -->
 
     <div class="container-fluid">
-        <div class="row bg-offwhite intro-section">
+        <div class="row bg-offwhite intro-section" id="announcement">
             <div class="col-md-3 col-md-offset-1">
-                <h3 id="announcement">What is Anthill Inside </h3>
+                <h3>What is Anthill Inside </h3>
                 <p class="base-font-style">In 2016, The Fifth Elephant branched into a separate conference on Deep Learning. Anthill Inside is the new avataar of the Deep Learning conference. Anthill Inside attempts to bridge the gap bringing theoretical advances closer to functioning reality.</p>
             </div>
             <div class="col-md-4">
@@ -105,91 +107,92 @@
             <img src="./images/photo-wall@2x.png" alt="" class="img-responsive">
             <button type="button" class="btn btn-primary btn-lg cta-green">BOOK TICKETS</button>
         </div>
-       <div class="row past-highlight">
+       <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <h2 class="text-center">Speakers from Last Year</h2>
-                <div class="col-md-5 speaker-card" id="past-highlight">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="./images/speaker-1.png" alt="" class="hidden-xs hidden-sm">
-                        </div>
-                        <div class="col-md-8" id="part-1">
-                           <h4>Anand Chandrasekaran</h4>
-                            <p>CTO of Mad Street Den</p>
-                            <p>Dr Anand's keynote took us through the history and origin of Deep Learning, the algorithms of "traditional" machine learning, and the dominant concepts that shape its practice today.</p>
-                            <a href="https://hasgeek.tv/fifthelephant/deep-learning-conf-2016/1214-anand-chandrasekaran-deep-learning-for-computer-vision" target="_blank">Watch Talk</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-5 speaker-card">
-                    <div class="row">
-                        <div class="col-md-4 hidden-xs hidden-sm">
-                            <img src="./images/speaker-2.png" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <h4>Sundara R Nagalingam</h4>
-                            <p>Head of Manufacturing and Energy businesses for NVIDIA India</p>
-                            <p>Overview of a modern Deep Learning stack, advances in GPU computation, and modern tools like CuDNN, CuSPARSE, cuBLAS, DIGITS-NCCL to improve intranode and internode scaling.</p>
-                            <a href="https://hasgeek.tv/fifthelephant/deep-learning-conf-2016/1215-sundara-r-nagalingam-recent-advancements-in-deep-learning-techniques-using-gpus" target="_blank">Watch Talk</a>
+                <div class="row">
+                    <div class="col-md-6" id="past-highlight">
+                        <div class="speaker-card clearfix">
+                            <div class="speaker-card-img" style="">
+                                <img src="https://imgee.s3.amazonaws.com/imgee/3acad27b50e949e0a054d1a302671636.png" alt="" style="max-width: 100%;">
+                            </div>
+                            <div class="" id="part-1" style="text-align: center;">
+                                <h4>Anand Chandrasekaran</h4>
+                                <p>CTO of Mad Street Den</p>
+                                <p class="text-left">Dr Anand Chandrasekaran's keynote took us through the history and origin of Deep Learning from the early hype over "Artificial Intelligence", through the hand-crafted algorithms of "traditional" machine learning, to the beginning of actual "deep" learning with hierarchical models, and touch upon the dominant concepts that shaped its practice today.</p>
+                                <a href="https://hasgeek.tv/fifthelephant/deep-learning-conf-2016/1214-anand-chandrasekaran-deep-learning-for-computer-vision" target="_blank" class="btn btn-info">Watch Talk</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-5 speaker-card">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="./images/speaker-3.png" alt="" class="hidden-xs hidden-sm">
-                        </div>
-                        <div class="col-md-8">
-                           <h4>Vijay Gabale</h4>
-                            <p>Co-founder and CTO of Infilect</p>
-                            <p>Walked us through the components of building a chat bot for conversational search: intent extraction, dialogue generation, meaningful search, and assistance based conversation, and the relevant Deep Learning techniques.</p>
-                            <a href="https://hasgeek.tv/fifthelephant/deep-learning-conf-2016/1217-vijay-gabale-deep-dive-into-building-chat-bots-using-deep-learning" target="_blank">Watch Talk</a>
+                    <div class="col-md-6">
+                        <div class="speaker-card clearfix">
+                            <div class="speaker-card-img" style="">
+                                <img src="https://imgee.s3.amazonaws.com/imgee/38e0615e0d8841f7885d7211c77feee7.jpeg" alt="" style="max-width: 100%;">
+                            </div>
+                            <div class="" id="part-1" style="text-align: center;">
+                                <h4>Sundara R Nagalingam</h4>
+                                <p>Head of Manufacturing and Energy businesses for NVIDIA India</p>
+                                <p class="text-left">NVIDIA's Sundara Nagalingam gave an overview of a modern Deep Learning stack (software and hardware), advances in GPU computation, and modern tools like CuDNN, CuSPARSE, cuBLAS, DIGITS-NCCL to improve intranode and internode scaling.</p>
+                                <a href="https://hasgeek.tv/fifthelephant/deep-learning-conf-2016/1215-sundara-r-nagalingam-recent-advancements-in-deep-learning-techniques-using-gpus" target="_blank" class="btn btn-info">Watch Talk</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                 <div class="col-md-5 speaker-card">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="./images/speaker-4.png" alt="" class="hidden-xs hidden-sm">
+                    <div class="col-md-6">
+                        <div class="speaker-card clearfix">
+                            <div class="speaker-card-img" style="">
+                                <img src="https://imgee.s3.amazonaws.com/imgee/088f00961403417c92a03f06424fd8aa.jpeg" alt="" style="max-width: 100%;">
+                            </div>
+                            <div class="" id="part-1" style="text-align: center;">
+                                <h4>Vijay Gabale</h4>
+                                <p>Co-founder and CTO of Infilect</p>
+                                <p class="text-left">Vijay Gabale walked us through the components of building a chat bot for conversational search: intent extraction, dialogue generation, meaningful search, and assistance based conversation, and the relevant Deep Learning techniques, displaying a functioning example.</p>
+                                <a href="https://hasgeek.tv/fifthelephant/deep-learning-conf-2016/1217-vijay-gabale-deep-dive-into-building-chat-bots-using-deep-learning" target="_blank" class="btn btn-info">Watch Talk</a>
+                            </div>
                         </div>
-                        <div class="col-md-8">
-                           <h4>Abhishek Thakur</h4>
-                            <p>Senior Data Scientist at Searchmetrics Inc.</p>
-                            <p>Overview of current advances in the field of Deep Learning and neural networks, the implementation of deepnets using python, and illustrate the use of python with keras and Caffe.</p>
-                            <a href="https://hasgeek.tv/fifthelephant/deep-learning-conf-2016/1213-abhishek-thakur-applied-deep-learning" target="_blank">Watch Talk</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="speaker-card clearfix">
+                            <div class="speaker-card-img" style="">
+                                <img src="https://imgee.s3.amazonaws.com/imgee/38e0615e0d8841f7885d7211c77feee7.jpeg" alt="" style="max-width: 100%;">
+                            </div>
+                            <div class="" style="text-align: center;">
+                                <h4>Abhishek Thakur</h4>
+                                <p>Senior Data Scientist at Searchmetrics Inc.</p>
+                                <p class="text-left">Abhishek Thakur gave overview of current advances in the field of Deep Learning and neural networks, the implementation of deepnets using python, and illustrate the use of python with keras and Caffe.</p>
+                                <a href="https://hasgeek.tv/fifthelephant/deep-learning-conf-2016/1213-abhishek-thakur-applied-deep-learning" target="_blank" class="btn btn-info">Watch Talk</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div><!-- /.row -->
         <div class="row past-workshops">
             <div class="col-md-10 col-md-offset-1">
                 <h2 class="text-center">Workshops from Last Year</h2>
-                <div class="col-md-5 speaker-card" id="past-highlight">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="./images/speaker-1.png" alt="" class="hidden-xs hidden-sm">
+                <div class="col-md-6">
+                    <div class="speaker-card clearfix">
+                        <div class="speaker-card-img" style="">
+                            <img src="https://imgee.s3.amazonaws.com/imgee/ebe7d1044599405daf5eb61d17a00ec0.jpeg" alt="" style="max-width: 100%;">
                         </div>
-                        <div class="col-md-8" id="part-1">
-                           <h4>Intro to Deep Learning for NLP</h4>
-                            <p>Nischal and Raghotham <br><small>Co-Founders, Unnati Data Labs</small></p>
-                            <p>A hands-on intro to Deep Learning for NLP covering common Deep Learning architectures. </p>
+                        <div class="" style="text-align: center;">
+                            <h4>Intro to Deep Learning for NLP</h4>
+                            <p>Nischal and Raghotham | Co-Founders, Unnati Data Labs</p>
+                            <p class="text-left">A hands-on introduction to Deep Learning for natural language processing covering common Deep Learning architectures. Understand the basic building blocks of neural networks, supervised learning using multi-layer perceptrons and recurrent neural networks (RNNs), word embeddings using word2vec and text classification using RNNs, and the impact of GPUs on Deep Learning.</p>
+                            <a href="https://fifthelephant.talkfunnel.com/deep-learning-2016/2-introduction-to-deep-learning-for-natural-language" target="_blank" class="btn btn-info">Read More</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-5 speaker-card">
-                    <div class="row">
-                        <div class="col-md-4 hidden-xs hidden-sm">
-                            <img src="./images/speaker-2.png" alt="">
+                <div class="col-md-6">
+                    <div class="speaker-card clearfix">
+                        <div class="speaker-card-img" style="">
+                            <img src="https://imgee.s3.amazonaws.com/imgee/3acad27b50e949e0a054d1a302671636.png" alt="" style="max-width: 100%;">
                         </div>
-                        <div class="col-md-8">
+                        <div class="" style="text-align: center;">
                             <h4>Deep Learning for Computer Vision</h4>
-                            <p>Anand Chandrasekaran,<br><small>CTO of Mad Street Den</small></p>
-                            <p>An introduction to the nuts and bolts of Deep Learning in computer vision, from neurons to networks.</p>
+                            <p>Anand Chandrasekaran | CTO of Mad Street Den</p>
+                            <p class="text-left">An introduction to the nuts and bolts of Deep Learning in computer vision, from neurons to networks. Get familiar with the entire spectrum of of usable networks, from RBMs to CNNs to RNNs, how they're used in computer vision, what works and what doesn't, and the fundamentals on training Deep Learning networks on existing frameworks as well as GPUs. Participants will have access to AWS ec2 GPU instances for training and testing.</p>
+                            <a href="https://fifthelephant.talkfunnel.com/deep-learning-2016/26-deep-learning-for-computer-vision" target="_blank" class="btn btn-info">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -203,10 +206,10 @@
                 <a href=""><img src="./images/workshop-banner-alternate.png" alt="" class="img-responsive"></a>
             </div>
         </div> -->
-        <div class="row proposed-talks">
+        <div class="row proposed-talks" id="proposals">
             <div class="col-md-8 col-md-offset-2">
-                <h2 class="text-center" id="proposals">Propose a Talk</h2>
-                <p class="base-font-style" id="proposals">Anthill Inside is attended by over 700 people. If you would like to give a talk during the conference, submit your proposal below. Nulla iaculis ultricies sapien in tempus. Sed dictum odio commodo dignissim elementum. Donec elit ante, commodo eget sem sed, vehicula posuere eros.</p>
+                <h2 class="text-center">Propose a Talk</h2>
+                <p class="base-font-style">Anthill Inside is attended by over 700 people. If you would like to give a talk during the conference, submit your proposal below. Nulla iaculis ultricies sapien in tempus. Sed dictum odio commodo dignissim elementum. Donec elit ante, commodo eget sem sed, vehicula posuere eros.</p>
                 <p class="base-font-style">You can upvote one’s that you’re particularly interested in attending. On 30th May, we close the submissions and select the highest rated proposals. </p>
             </div>
             <div class="col-md-4 col-md-offset-4">
@@ -227,18 +230,18 @@
 
             </div>
         </div> -->
-        <div class="row venue bg-blue">
+        <div class="row venue bg-blue" id="venue">
             <div class="col-md-10 col-md-offset-1">
                 <h2 class="text-center">Venue</h2>
             </div>
-            <div class="col-md-12 text-center" id="venue">
+            <div class="col-md-12 text-center">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.575036076189!2d77.69974314950313!3d12.999010417750483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae119ea7124c39%3A0x667b4a3db7259694!2sMLR+Convention+Centre!5e0!3m2!1sen!2sin!4v1492177815979" width="900" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div class="col-md-4 col-md-offset-4">
                 <button type="button" class="btn btn-primary btn-block cta-green"><span class="glyphicon glyphicon-map-marker"></span> Get Directions</button>
             </div>
         </div>
-        <div class="row sponsorship">
+        <!-- <div class="row sponsorship">
             <div class="col-md-10 col-md-offset-1 text-center">
                 <img src="./images/anthill-inside-logo.svg" alt="Anthill Inside Logo" width="56">
             </div>
@@ -256,7 +259,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
        <!--  <div class="row dinner-banner text-center">
             <div class="col-md-12 hidden-xs hidden-sm">
                 <img src="./images/drinks&dinner-banner@2x.png" alt="" class="img-responsive" style="margin: 0 auto;">
@@ -276,11 +279,11 @@
                 <p>Sed vitae scelerisque nisl, vel tristique nunc. Mauris nec metus feugiat, accumsan nulla vel, tempor tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum blandit suscipit enim non consequat.Sed vitae scelerisque nisl, vel tristique nunc. Mauris nec metus feugiat, accumsan nulla vel, tempor tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum blandit suscipit enim non consequat.</p>
             </div>
         </div> -->
-        <div class="row about-hasgeek">
+        <div class="row about-hasgeek" id="about-hasgeek">
             <div class="col-md-10 col-md-offset-1 text-center">
                 <img src="./images/hasgeek-logo.png" alt="">
             </div>
-            <div class="col-md-8 col-md-offset-2" id="about-hasgeek">
+            <div class="col-md-8 col-md-offset-2">
                 <p class="base-font-style">HasGeek helps people in technology meet each other, collaborate on new opportunities and advance the state of the art. We organize conferences, hacknights, workshops and geekups, and provide tools for communities to self-organize.</p>
                 <p class="base-font-style">We’ve created conferences around the themes of devops, front end engineering, Julia, big data and cloud computing, JavaScript and Android. Our Job Board is used by thousands of geeks every month to find new opportunities.</p>
                 <p class="base-font-style">HasGeek is a technology company in the media business, bringing software automation to a traditionally people-intensive operation. Over the past six years, HasGeek has organized dozens of conferences attended by thousands of technology professionals, made several thousand connections, and built open source tools that are now used by many communities.</p>
@@ -295,7 +298,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
        function scrollTo(goto){
-        var offset_top=$(goto).offset().top - 210;
+        var offset_top=$(goto).offset().top - 150;
         $("body,html").stop(true,true).animate({scrollTop:offset_top},300)
     }
     $(".anthill-navbar-links .nav-list a").click(function(e) {
