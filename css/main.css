@@ -4,6 +4,9 @@
     src: url(./Font/Kollektif-Bold.ttf);
 }
 /*-----------------*/
+.bold{
+    font-weight: 700;
+}
 .no-padding{
     padding: 0;
 }
@@ -22,6 +25,9 @@
 
 .bg-blue{
     background-color: #3E50A3;
+}
+.text-blue{
+    color: #3E50A3;
 }
 
 .btn-large{
