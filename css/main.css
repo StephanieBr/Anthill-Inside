@@ -98,9 +98,6 @@
   color: #ffffff;
 }
 
-.cta-tertiary{
-
-}
 /*-------------------*/
 body{
     background-image: url("../images/anthill-background-tile.png");
@@ -361,7 +358,9 @@ margin-top: 10px;
 
 .footer{
     padding: 40px 0 40px 0;
+    margin-bottom: 55px;
 }
+
 
 @media only screen and (max-width: 500px) {
     .masthead{
@@ -380,10 +379,13 @@ margin-top: 10px;
     font-size: 16px;
 }
 .speaker-card{
-    height: 600px;
+    height: 520px;
 }
 .workshop-card{
-    height: 600px;
+    height: 620px;
+}
+.title-font-mobile{
+    font-size: 26px;
 }
 
 }
