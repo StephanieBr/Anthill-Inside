@@ -43,10 +43,16 @@
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    color: #ffffff;
 }
 
 .cta-green:hover{
   background-color: #49C36E;
+  color: #ffffff;
+}
+
+.cta-green:focus{
+   color: #ffffff;
 }
 
 .cta-orange{
@@ -59,11 +65,18 @@
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    color: #ffffff;
 }
 
 .cta-orange:hover{
   background-color: #DE5D30;
+  color: #ffffff;
 }
+
+.cta-orange:focus{
+   color: #ffffff;
+}
+
 
 .cta-blue-inline{
     background-color: #ffffff;
@@ -330,6 +343,7 @@ margin-top: 10px;
     font-size: 16px;
     font-weight: 700;
     padding: 15px 40px 15px 30px;
+    border-bottom: solid 3px transparent;
 }
 
 .secondary-nav>li>a:hover{
@@ -371,7 +385,7 @@ margin-top: 10px;
 
 
 /*map*/
-#mapid { height: 180px; }
+.leaflet-map { height: 400px; }
 
 
 
