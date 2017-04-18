@@ -391,10 +391,10 @@ margin-top: 10px;
 @media only screen and (max-width: 320px) {
 
 .speaker-card{
-    height: 700px;
+    height: 600px;
 }
 .workshop-card{
-    height: 700px;
+    height: 720px;
 }
 
 }
