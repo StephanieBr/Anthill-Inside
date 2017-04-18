@@ -401,6 +401,9 @@ margin-top: 10px;
 
 }
 
+.fb_iframe_widget_fluid span {
+   width: 100% !important;
+}
 
 /*map*/
 .leaflet-map { height: 400px; }
