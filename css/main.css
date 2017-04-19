@@ -4,13 +4,6 @@
     src: url(../font/Kollektif-Bold.ttf);
 }
 
-@font-face {
-    font-family: kollektif-regular;
-    src: url(../font/Kollektif.ttf);
-}
-.kollektif-regular{
-    font-family:'kollektif-regular';
-}
 /*-----------------*/
 .bold{
     font-weight: 700;
@@ -327,8 +320,8 @@ margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.anthill-etymology{
-    margin-bottom: 100px;
+.about-hasgeek{
+    margin-top: 100px;
 }
 
 .about-hasgeek img{
